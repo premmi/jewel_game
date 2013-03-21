@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+          user-scalable=no">
+    <title>Jewel Crusade</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/fontfaces.css" />
+    <script src="scripts/modernizr.js"></script>
+    <script src="scripts/loader.js"></script>
+  </head>
+  <body>
+    <div id="game">
+      <div class="background"></div>	
+      <div class="screen" id="screen-splash">
+        <h1 class="logo">Jewel <br/>Crusade</h1>
+        <div class="progress">
+        	<div class="indicator"></div>
+        </div>	
+        <span class="continue">Click to continue</span>
+      </div>  
+      <div class="screen" id="game-menu">
+        <h2 class="logo">Jewel <br/>Crusade</h2>
+        <ul class="menu">
+          <li><button name="game-screen">Play</button>
+          <li><button name="hiscore">Highscore</button>
+          <li><button name="about">About</button>
+          <li><button name="exit-screen">Exit</button>
+        </ul>      
+      </div>
+      <div class="screen" id="game-screen">
+      	<div class="game-board jewel-size"></div>
+        <div class="announcement"></div>
+        <div class="game-info">
+          <label class="level">Level: <span></span></label>
+          <label class="score">Score: <span></span></label>
+        </div>
+
+        <div class="time progress">
+          <div class="indicator"></div>
+        </div>
+      </div>
+      <div class="screen" id="high-scores"></div>        	
+   </div>
+ </body>
+</html>
+ 
